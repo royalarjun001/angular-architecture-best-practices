@@ -35,9 +35,18 @@ Do use the offcial [Angular Style Guide](https://angular.io/guide/styleguide) fo
 
 Help to keep the shape of the application in proper form even if there are large number of teams. Or after going through all the item we can boil it down to some specific rule if it don't seems right to follow all the official rules and Publish them and shared across your team.
 
+### Other Considerations
 
-
-
+* Accessibility 
+* i18n
+* Environments
+* CI/CD
+* CDN, container, server
+* Unit testing
+* End-to-end testing
+* APIs
+* Etc.
+* 
 
 
 
