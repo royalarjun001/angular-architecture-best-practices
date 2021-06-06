@@ -22,6 +22,25 @@ This are the main 9 point to be considered as a blue print of the application.
 
 If we do not have any template then it would be very long process. To reduce it we can create a simple shareable templates with multiple columns or slide like PowerPoint and in each template have one of the point from the Architecture Considerations and then this link are shared with the team and all can start filling what they know to come to very good conclusion as in very sort span of time. and keep them every one focused.
 
+### Angular Style Guide
 
- 
+Do use the offcial [Angular Style Guide](https://angular.io/guide/styleguide) for the application.
+* Coding conventions
+* Naming rules
+* Application structure
+* Organizaing Module
+* Creating and using components
+* Creating and using servcies
+* Lifecycle hooks
+
+Help to keep the shape of the application in proper form even if there are large number of teams. Or after going through all the item we can boil it down to some specific rule if it don't seems right to follow all the official rules and Publish them and shared across your team.
+
+
+
+
+
+
+
+
+
 
