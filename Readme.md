@@ -15,3 +15,13 @@
 1. _Shared Functionality_ - What kind of sharble functionality do we have like ... third party, native Libraries etc.
 
 This are the main 9 point to be considered as a blue print of the application.
+
+### Architecture Planning Template
+
+**Benifit of using Planning Template**
+
+If we do not have any template then it would be very long process. To reduce it we can create a simple shareable templates with multiple columns or slide like PowerPoint and in each template have one of the point from the Architecture Considerations and then this link are shared with the team and all can start filling what they know to come to very good conclusion as in very sort span of time. and keep them every one focused.
+
+
+ 
+
