@@ -71,6 +71,10 @@ Help to keep the shape of the application in proper form even if there are large
 2. Avoid deeply nested folder, Because `Flat structure` this will help in refactoring, maintance and importing.
 
 ### Feature Modules
+
+Most of the information is provided in Angular style guide. 
+On addition to this, One thing on which we should give emphasis is that as in general practice, we usually create top level feature module and then add all the functionality on the same module at the root level. The potential issue with this approach is that, when multiple developer are working on it or multiple team is working on it then root component developer need to know all information about the sub functionality of the application which is not the case because when any bug and Change request is required then we need to check all the information or code associated with it, which should not be like that as we all try to follow single responsibilty principle. So what we should do in this case is to create a multiple sub module of the feature module and from there which can be loaded based on the route hence it will allow to keep the things clean and separate in case of Complete feature module.
+
 ### Core and Shared Modules
 ### Core and Shared Action
 ### Create/Consuming a Custom Library
