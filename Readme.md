@@ -46,7 +46,36 @@ Help to keep the shape of the application in proper form even if there are large
 * End-to-end testing
 * APIs
 * Etc.
-* 
+
+## Organizing Features and Modules
+
+### Organizing Feature
+
+> Do structure the app such that you
+> can **L**ocate code quickly, **I**dentify the
+> Code at a glance, keep the **F**lattest
+> structure you can, and **T**ry to be **DRY**
+> 
+> - Angular Style Guide
+
+
+**LIFT**
+* Locate code quickly - Structure the code and files such that you need not to dig very much deep for finding any specific piece of code.
+* Identify the code at a glance - How we name our files.
+* Keep the flattest structure you can - disadvantage of nested strucuture
+* Try to be Dry - every one knows.
+
+1. Avoid `convention-based` structure - we create a folder like component and dump all the component there. Instead try to keep it `Feature-based` structure. Only use `convention-based` structure when we have lots of componenet children for the same parent, then something in the specific sub folder we can maintain a `convention-based` structure for the application.
+1. use the `Angular CLI` to generate initial feature folder/component
+1. Minimum of one module per feature
+2. Avoid deeply nested folder, Because `Flat structure` this will help in refactoring, maintance and importing.
+
+### Feature Modules
+### Core and Shared Modules
+### Core and Shared Action
+### Create/Consuming a Custom Library
+### 
+
 
 
 
